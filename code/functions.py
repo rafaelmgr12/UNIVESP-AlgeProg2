@@ -36,7 +36,7 @@ class Point:
 
 class Point :
     def getx(self):
-    'retorna coordenada x'
+        'retorna coordenada x'
         return self.coordx
 
 #8.3
