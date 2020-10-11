@@ -34,5 +34,4 @@ Nele Você encontrará os pequenos resumos de cada semana da disciplina junto co
     * [Entrada e saída de dados](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/apendice/Pandas/Entrada_e_sa%C3%ADda_de_dados.ipynb)
     * Exercicios
       - [Salarios de São Francisco](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/apendice/Pandas/Pandas%20Exercises/Exerc%C3%ADcios_Salarios_de_Sao_Francisco.ipynb)
-      
       -[Compras de Ecommerce](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/apendice/Pandas/Pandas%20Exercises/Exercicios_Compras_de_Ecomerce.ipynb)
