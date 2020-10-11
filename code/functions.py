@@ -87,7 +87,7 @@ class Baralho:
         # inclui Carta com certo valor e naipe no baralho
         self.baralho.append(Carta(valor, naipe))
     
-  def distribuiCarta:
+  def distribuiCarta(self):
     'distribui (remove e retorna) carta do topo do baralho'
     return self.baralho.pop()
     
@@ -145,7 +145,7 @@ class Baralho:
 
 # 8.8
 
-class Vetor(Ponto):
+class Vetor(Point):
   'uma classe de vetor 2D'
   
   def __mul__(self, v):
@@ -165,7 +165,7 @@ class Queue:
     'uma classe de fila clássica'
      # métodos __init__(), enqueue(), isEmpty(), __repr__(),
      # __len__(), __eq__() implementados aqui
-    ddef dequeue(self):
+    def dequeue(self):
 
         '''remove e retorna item na frente da fila
 
