@@ -15,8 +15,8 @@ Nele Você encontrará os pequenos resumos de cada semana da disciplina junto co
 
 ## Conteúdo
 
-### [1. Semana 1]()
-### [2. Semana 2]()
+### [1. Semana 1](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/Semana_1.ipynb)
+### [2. Semana 2](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/Semana_2.ipynb)
 ### [3. Semana 3]()
 ### [4. Semana 4]()
 ### [5. Semana 5]()
