@@ -15,7 +15,7 @@ Nele Você encontrará os pequenos resumos de cada semana da disciplina junto co
 
 ## Conteúdo
 
-### [Revisão](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/Revis%C3%A3o.ipynb)
+### [0. Revisão](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/Revis%C3%A3o.ipynb)
 ### [1. Semana 1](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/Semana_1.ipynb)
 ### [2. Semana 2](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/Semana_2.ipynb)
 ### [3. Semana 3]()
