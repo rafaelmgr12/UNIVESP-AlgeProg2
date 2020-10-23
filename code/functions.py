@@ -174,14 +174,26 @@ class Baralho:
 
 
 class Carta:
+  'representa uma carta do jogo'
+  def __init__(self, valor, suit):
+    'inicializa valor e naipe da carta do jogo'
+    self.valor = valor
+    self.suit = suit
+  
+  def getRank(self):
+    'retorna valor'
+    return self.valor
 
+  def getSuit(self):
+    'retorna naipe'
+    return self.suit
     # outros métodos de Carta
-    def __repr__(self):
-        'retorna representação formal'
-        return "Carta('{}', '{}')".format(self.valor, self.naipe)
-    def __eq__(self, outro):
-        'self = outro se valor e naipe forem os mesmos'
-        return self.valor == outro.valor and self.naipe == outro.naipe
+  def __repr__(self):
+    'retorna representação formal'
+    return "Carta('{}', '{}')".format(self.valor, self.suit)
+  def __eq__(self, outro):
+      'self = outro se valor e naipe forem os mesmos'
+      return self.valor == outro.valor and self.suit == outro.suit
 
 
 # 8.8

@@ -8,6 +8,33 @@
 #
 # Os exercícios são tirados do livro : Introduçao a Computacão com Python  PERKOVIC, Ljubomir
 #############################################################################################################
+#Exercicios de 3.15
+##############################################################################################################
+##############################################################################################################
+
+import turtle
+import turtlefunctions
+
+def olimpíadas(t):
+  'faz tartaruga t desenhar os anéis olímpicos'
+  t.pensize(3)
+
+  turtlefunctions.jump(t, 0, 0) # fundo do círculo superior central
+  t.setheading(0)
+  t.circle(100) # círculo superior central
+  turtlefunctions.jump(t, -220, 0)
+  t.circle(100) # círculo superior esquerdo
+  turtlefunctions.jump(t, 220, 0)
+  t.circle(100) # círculo superior direito
+  turtlefunctions.jump(t, 110, -100)
+  t.circle(100) # círculo inferior direito
+  turtlefunctions.jump(t, -110, -100)
+  t.circle(100) # círculo inferior esquerdo
+
+#s = turtle.Screen()
+#t = turtle.Turtle()
+#olimpíadas(t)
+
 
 #########################################################################################################################
 # Exercício do cap 8 do livro
@@ -47,6 +74,9 @@ print("\nIniciando a classe baralho:")
 from functions import Baralho
 
 baralho = Baralho(['1', '2', '3', '4'])
+#baralho = Baralho()
 baralho.shuffle()
 print(baralho.distribuiCarta())
 print(len(Baralho()),'\n')
+print(baralho.distribuiCarta())
+print("\n",baralho.distribuiCarta())
