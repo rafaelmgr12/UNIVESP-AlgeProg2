@@ -31,9 +31,9 @@ def olimpíadas(t):
   turtlefunctions.jump(t, -110, -100)
   t.circle(100) # círculo inferior esquerdo
 
-#s = turtle.Screen()
-#t = turtle.Turtle()
-#olimpíadas(t)
+s = turtle.Screen()
+t = turtle.Turtle()
+olimpíadas(t)
 
 
 #########################################################################################################################
@@ -80,3 +80,8 @@ print(baralho.distribuiCarta())
 print(len(Baralho()),'\n')
 print(baralho.distribuiCarta())
 print("\n",baralho.distribuiCarta())
+
+
+import functions as f
+
+f.drawSnowflake(4)
