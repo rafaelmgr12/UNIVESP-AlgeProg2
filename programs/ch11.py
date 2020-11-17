@@ -1,9 +1,12 @@
 from urllib.parse import urljoin
 from html.parser import HTMLParser
+
+
 class Collector(HTMLParser):
     'coleta URLs de hyperklink em uma lista'
+
     def __init__(self, url):
-       'inicializa analisador, o URL e uma lista'
+        'inicializa analisador, o URL e uma lista'
         HTMLParser.__init__(self)
         self.url = url
         self.links = []
@@ -15,7 +18,7 @@ class Collector(HTMLParser):
                 if attr[0] == 'href':
                     # constrói URL absoluto
                     absolute = urljoin(self.url, attr[1])
-                    if absolute[:4] == 'http': # coleta URLs HTTP
+                    if absolute[:4] == 'http':  # coleta URLs HTTP
                         self.links.append(absolute)
 
     def getLinks(self):
