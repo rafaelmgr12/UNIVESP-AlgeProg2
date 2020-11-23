@@ -22,7 +22,7 @@ Nele Você encontrará os pequenos resumos de cada semana da disciplina junto co
 ### [4. Semana 4](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/Semana_4.ipynb)
 ### [5. Semana 5](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/Semana_5.ipynb)
 ### [6. Semana 6](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/Semana_6.ipynb)
-### [7. Semana 7](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/Semana_7.ipynb))
+### [7. Semana 7](https://colab.research.google.com/github/rafaelmgr12/UNIVESP-AlgeProg2/blob/master/Semana_7.ipynb)
 ### [8. Semana 8]()
 ### [9. Apêndice]()
   - Biblioteca Pandas
